@@ -1,0 +1,109 @@
+
+body {
+    background-color: #ffffff;
+}
+
+body >  header {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#bloglogo {
+    width: 85px;
+    height: 85px;
+}
+
+#blogtitle {
+    flex: 2;
+    text-align: center;
+    color: #2a4f03;
+    font-size: xx-large;
+    margin: 0px;
+    padding: 0px;
+}
+
+#blogtitle small {
+    font-size: large;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006951;
+    border-radius: 5px;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 on hover */
+nav ul li a:hover {
+    background-color: #6c872b;
+}
+
+.adjunto {
+    float: right;
+    width: 25%;
+    min-width: 200px;
+    box-shadow: 3px 3px 6px 6px #b39843;
+    border-radius: 20px;
+    margin: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.adjunto:hover {
+    transform: scale(1.1);
+}
+
+article {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffee;
+    color: #2a4f03;
+
+}
+
+article header h1 {
+    font-size: xx-large;
+    margin: 0;
+    color: #006951;
+}
+
+article .autor {
+    font-size: medium;
+    font-style: italic;
+    color: #6c872b;
+}
+
+.autor:before {
+    content: "por ";
+}
+
+article footer {
+    clear: both;
+    font-size: small;
+    text-align: right;
+}
+
+address {
+    padding: 3px 0;
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
